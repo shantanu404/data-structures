@@ -1,0 +1,5 @@
+build/
+*.a
+*.o
+tests/*.out
+teste/tests.log
