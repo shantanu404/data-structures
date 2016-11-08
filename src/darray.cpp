@@ -1,4 +1,4 @@
-#include <darray.h>
+#include <darray.hpp>
 #include <cassert>
 
 DArray::DArray()

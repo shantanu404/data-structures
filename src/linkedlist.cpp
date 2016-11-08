@@ -1,4 +1,4 @@
-#include <linkedlist.h>
+#include <linkedlist.hpp>
 #include <cassert>
 
 LinkedList::LinkedList()

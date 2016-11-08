@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cassert>
 
-#include <darray.h>
+#include <darray.hpp>
 
 #define LOG_MSG(msg) cout << msg << " @ " << __FILE__ << ":" << __LINE__ << endl;
 

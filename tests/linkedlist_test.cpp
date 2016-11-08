@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cassert>
 
-#include <linkedlist.h>
+#include <linkedlist.hpp>
 
 #define LOG_MSG(msg) cout << msg << " @ " << __FILE__ << ":" << __LINE__ << endl;
 
