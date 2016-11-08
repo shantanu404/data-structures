@@ -22,7 +22,7 @@ public:
     int popBack();
     int popFront();
     int getAt(size_t index);
-
+    void setAt(size_t index, int data);
 
 private:
     list_node *root;

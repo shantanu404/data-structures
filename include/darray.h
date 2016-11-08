@@ -19,7 +19,8 @@ public:
 
     int popBack();
     int popFront();
-    int operator[] (size_t index) const;
+
+    int &operator[] (size_t index);
 
 private:
     int *data;

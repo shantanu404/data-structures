@@ -33,6 +33,8 @@ int main()
     LOG_MSG("retuned " << rc);
     assert(rc == 4);
 
+    list[0] = 3; // change 4 to 3
+
     rc = list.popBack();
     LOG_MSG("retuned " << rc);
     assert(rc == 1);
@@ -40,6 +42,10 @@ int main()
     rc = list.getSize();
     LOG_MSG("retuned " << rc);
     assert(rc == 1);
+
+    rc = list.popFront();
+    LOG_MSG("returned " << rc);
+    assert(rc == 3);
 
     return 0;
 }

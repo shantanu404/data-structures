@@ -123,3 +123,20 @@ int LinkedList::getAt(size_t index)
 
     return rc;
 }
+
+void LinkedList::setAt(size_t index, int data)
+{
+    if (index < this->size) {
+        size_t i = 0;
+        list_node *cur = this->root;
+
+        while (i < index) {
+            cur = cur->next;
+            i ++;
+        }
+
+        cur->data = data;
+    } else {
+        assert(index < this->size && "index must be less than size");
+    }
+}

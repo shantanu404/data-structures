@@ -81,7 +81,7 @@ int DArray::popFront()
     return rc;
 }
 
-int DArray::operator[] (size_t index) const
+int &DArray::operator[] (size_t index)
 {
     assert(index < this->used && "index must be less than size");
     return this->data[index];
